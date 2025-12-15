@@ -6,16 +6,39 @@
     <link rel="stylesheet" href="style.css">
     <title>Jogo da Memoria</title>
 </head>
+
 <body>
-    
+<div class="container">
+
+    <h1>Jogo da Memoria Hogwarts Edition</h1>
+
+    <div class="status-bar">
+
+        <p>Tentativas: <span id="attempts">0</span></p>
+        <p> Pares Encontrados: <span id="matches">0</span>/8</p>
+
+        <button id="restart-button">🔄 Reiniciar Jogo</button>
+
+    </div>
+
+    <div id="game-board">
+    </div>
+
+    <div id="winner-message" class="hidden">
+
+        <h2>🏆 Vitória! As Relíquias Foram Reunidas!</h2>
+
+        <p>Voce completou o jogo em: <span id="final-attempts">0</span>Tentativas.</p>
+
+    </div>
 
 
 
+</div>
 
-
-
-
-
+<footer>
+    Desenvolvido Por: <a href="https://www.linkedin.com/in/gabriel-alexandre-marques-cardoso-0041101ab/" target="_blank">Gabriel Cardoso</a>
+</footer>
 
 <script src="script.js"></script>
 
